@@ -1,0 +1,62 @@
+body {
+    background-color: #2A2A2A;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0)) /* Gradient overlay */,
+    url("../assets/irrigacao.jpg");
+    background-size: 7095px x 3546px;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    
+}
+
+.painel-geral {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+}
+
+.caixa-laranja{
+    right: 10px;
+    top: 50%;
+    bottom: 50%;
+    width: 250px;
+    height: 13px;
+    padding: 10px;
+    border-radius: 6px;
+    background-color: #F9A429;
+    text-align: center;
+    display: flex;
+    align-items:center; 
+    justify-content: center;
+    text-align: center; 
+    color: white; 
+    font-weight: bold;
+    margin-left: 1000px;   
+}
+
+
+.painel-esquerdo {
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 40%;
+    color:#2A2A2A
+}
+
+.painel-esquerdo img {
+    width: 250px;
+    height: 250px;
+}
+
+.painel-direito {
+    width: 60%;
+    align-items: right;
+}
+
+h1 {
+    margin-top: 0%;
+    font-size: 60px;
+}
+
+h4 {
+    line-height: 3px;
+}
+

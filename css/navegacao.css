@@ -1,0 +1,62 @@
+
+.brasil-flag {
+    
+    width: 40px;
+    height: 28px;
+
+}
+
+.logo-header {
+    margin-right: 600px;
+    width: 135px;
+    height: 35.3px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+    width: 50%;
+    height: 100%;
+
+    margin-left: 20px;
+    
+    
+}
+
+
+a {
+    display: flex;
+    color: white;
+    font-size: 1.2rem;
+    font-family:'Segoe UI', Tahoma, Geneva;
+    font-weight: bold;
+    text-decoration: none;
+
+    text-align:center;
+    
+}
+
+header {
+   
+    width: 100%;
+    height: 6vh;
+    background-color: #F19C41; 
+    justify-content: space-between;
+}
+
+a:hover {
+    color: green;
+}
+
+header a {
+    margin-right: 20px;
+}
+  
+header {
+    display: flex;
+    align-items: center;
+}
+  
